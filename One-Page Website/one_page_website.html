@@ -1,105 +1,124 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>History of Lego Bionicle</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <!--NavBar-->
-        <nav>
-            <ul>
-                <li><a href="one_page_website.html">HOME</a></li>
-            </ul>
-            <ul>
-                <a href="#stone"><li>Toa Pohatu</li></a>
-                <a href="#earth"><li>Toa Onua</li></a>
-                <a href="#water"><li>Toa Gali</li></a>
-                <a href="#fire"><li>Toa Tahu</li></a>
-                <a href="#air"><li>Toa Lewa</li></a>
-                <a href="#ice"><li>Toa Kopaka</li></a>
-                <a href="#intro"><li>Videos</li></a>
-                <a href="#contact"><li>Contact Us!</li></a>
-            </ul>
-        </nav>
-        <!--HEADER-->
-        <header>
-            <div>
-                <h1><em>History of Lego Bionicle</em></h1>
-            </div>
-        </header>
-        <!--Images-->
-        <section>
-            <div>
-                <!--Pohatu-->
-                <div id="stone">
+
+<head>
+    <title>History of Lego Bionicle</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="one_page_website.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="one_page_website.html">HOME</a></li>
+            <li class="drop"><a href="#the-toa">The Toa</a>
+                <div class="rollover-menu">
+                    <a href="#stone">Toa Pohatu</a>
+                    <a href="#earth">Toa Onua</a>
+                    <a href="#water">Toa Gali</a>
+                    <a href="#fire">Toa Tahu</a>
+                    <a href="#air">Toa Lewa</a>
+                    <a href="#ice">Toa Kopaka</a>
+                </div>
+            </li>
+            <li><a href="#music">Videos</a></li>
+            <li><a href="#contact">Contact Us!</a></li>
+        </ul>
+    </nav>
+    <!--HEADER-->
+    <header>
+        <div>
+            <h1><em>History of Lego Bionicle</em></h1>
+        </div>
+    </header>
+    <!--Images-->
+    <section>
+        <div class="container" id="the-toa">
+            <!--Pohatu-->
+            <div class="column" id="stone">
+                <div class="image-container">
                     <h3>Toa Pohatu</h3>
-                    <img src="images/Pohatu.jpg" alt="Image of Pohatu" width="650" height="500">
+                    <img src="images/Pohatu.jpg" alt="Image of Pohatu">
                 </div>
-                <!--Onua-->
-                <div id="earth">
+            </div>
+            <!--Onua-->
+            <div class="column" id="earth">
+                <div class="image-container">
                     <h3>Toa Onua</h3>
-                    <img src="images/Onua.jpg" alt="Image of Onua" width="650" height="500">
+                    <img src="images/Onua.jpg" alt="Image of Onua">
                 </div>
-                <!--Gali-->
-                <div id="water">
+            </div>
+            <!--Gali-->
+            <div class="column" id="water">
+                <div class="image-container">
                     <h3>Toa Gali</h3>
-                    <img src="images/Gali.jpg" alt="Image of Gali" width="650" height="500">
+                    <img src="images/Gali.jpg" alt="Image of Gali">
                 </div>
-                <!--Tahu-->
-                <div id="fire">
+            </div>
+            <!--Tahu-->
+            <div class="column" id="fire">
+                <div class="image-container">
                     <h3>Toa Tahu</h3>
-                    <img src="images/Tahu.jpg" alt="Image of Tahu" width="650" height="500">
+                    <img src="images/Tahu.jpg" alt="Image of Tahu">
                 </div>
-                <!--Lewa-->
-                <div id="air">
+            </div>
+            <!--Lewa-->
+            <div class="column" id="air">
+                <div class="image-container">
                     <h3>Toa Lewa</h3>
-                    <img src="images/Lewa.jpg" alt="Image of Lewa" width="650" height="500">
+                    <img src="images/Lewa.jpg" alt="Image of Lewa">
                 </div>
-                <!--Kopaka-->
-                <div id="ice">
+            </div>
+            <!--Kopaka-->
+            <div class="column" id="ice">
+                <div class="image-container">
                     <h3>Toa Kopaka</h3>
-                    <img src="images/Kopaka.jpg" alt="Image of Kopaka" width="650" height="500">
+                    <img src="images/Kopaka.jpg" alt="Image of Kopaka">
                 </div>
             </div>
-        </section>
-        <!--Videos-->
-        <section>
-            <!--Bionicle Intro-->
-            <div id="intro">
-                <h3>Videos</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/F4SVQu7op78?si=QIZ4pNjwujQSXwy7"></iframe>
-            </div>
-        </section>
-        <!--Form-->
-        <section>
-            <div id="contact">
-                <h2>Contact Us</h2>
-            </div>
-            <div>
-                <h3>Please provide your contact information
-                    and a brief message of your interest.
-                </h3>
-            </div>
-                <form>
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name"><br>
-                    <input type="email" placeholder="Email"><br>
-                    <textarea placeholder="Type message here..."></textarea><br>
-                    <input type="submit" value="Submit">
-                </form>
-        </section>
-        <!--Footer-->
-        <footer>
-            <table>
-                <tr>
-                    <td>
-                        <p>The History of Bionicle &copy;</p>
-                    </td>
-                    <td>
-                        <p>Portland, OR 97219</p>
-                    </td>
-                </tr>
-            </table>
-        </footer>
-    </body>
+        </div>
+    </section>
+    <!--Videos-->
+    <section>
+        <!--Bionicle Intro-->
+        <div class="container" id="music">
+            <h3>Videos</h3>
+            <iframe width="1280" height="720"
+                src="https://www.youtube.com/embed/F4SVQu7op78?si=QIZ4pNjwujQSXwy7"></iframe>
+        </div>
+    </section>
+    <!--Form-->
+    <section>
+        <div class="container" id="contact">
+            <h2>Contact Us</h2>
+        </div>
+        <div>
+            <h3>Please provide your contact information
+                and a brief message of your interest.
+            </h3>
+        </div>
+        <form>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name"><br>
+            <input type="email" placeholder="Email"><br>
+            <textarea placeholder="Type message here..."></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <!--Footer-->
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>The History of Bionicle &copy;</p>
+                </td>
+                <td>
+                    <p>Portland, OR 97219</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
 </html>
